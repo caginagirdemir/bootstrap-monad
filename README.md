@@ -1,3 +1,3 @@
 # bootstrap-monad
 
-a css library for monad ecosystem projects
+a css library derived from bootstrap v5.3 for monad ecosystem projects
