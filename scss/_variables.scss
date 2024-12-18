@@ -1,0 +1,73 @@
+// Colors
+$monad-purple: #836EF9;
+$monad-dark-blue: #200052;
+$electric-ice: #5FEDDF;
+$berry: #A0055D;
+$wine: #61004F;
+
+$purple-light-25: #BBAFFF;
+$purple-light-50: #9E8CFF;
+$purple-dark-25: #632ADB;
+$purple-dark-50: #3C1B84;
+
+$blue-light-25:#9F90F9;
+$blue-light-50:#8975FF;
+$blue-dark-25:#563AFD;
+$blue-dark-50:#1A0E62;
+
+$black:#000000;
+$black-80:#232323;
+$black-60:#4D4D4D;
+$black-40:#7A7A7A;
+
+$white:#ffffff;
+$white-80:#F1F1F1;
+$white-60:#E2E2E2;
+$white-40:#D6D6D6;
+
+$gray:#1F2937;
+$gray-80:#374151;
+$gray-60:#4B5563;
+$gray-40:#6B7280;
+
+$info: #A0C3FF;
+$success: #2CA77B;
+$warning: #FBC756;
+$error: #F60F0F;
+
+//text color definations
+.text-monad-purple {
+    color:$monad-purple;
+}
+
+.text-monad-dark-blue {
+    color:$monad-dark-blue;
+}
+
+.text-electric-ice {
+    color: $electric-ice
+}
+
+.text-berry{
+    color: $berry;
+}
+
+.text-wine {
+    color: $wine;
+}
+
+.text-purple-light-25 {
+    color: $purple-light-25;
+}
+
+.text-purple-light-50 {
+    color: $purple-light-50;
+}
+
+.text-purple-dark-25 {
+    color: $purple-dark-25;
+}
+
+.text-purple-dark-50 {
+    color: $purple-dark-50;
+}

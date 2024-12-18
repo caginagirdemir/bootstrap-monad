@@ -1,0 +1,21 @@
+$gradient-start: #2b1d8d;  
+$gradient-middle: #743f97; 
+$gradient-end: #d85a9e;   
+
+$gradient-color-1: rgba(166, 213, 255, 0.8); 
+$gradient-color-2: rgba(162, 133, 255, 0.7); 
+$gradient-color-3: rgba(255, 202, 115, 0.8); 
+$gradient-color-4: rgba(255, 161, 120, 0.7); 
+$gradient-background: #ececec; 
+
+.bg-monad-2 {
+  background: $gradient-background;
+  background: radial-gradient(circle at 20% 40%, $gradient-color-1 20%, transparent 50%),
+              radial-gradient(circle at 50% 50%, $gradient-color-2 20%, transparent 60%),
+              radial-gradient(circle at 70% 60%, $gradient-color-3 20%, transparent 60%),
+              radial-gradient(circle at 90% 70%, $gradient-color-4 30%, transparent 70%);
+}
+
+.bg-monad-1 {
+  background: linear-gradient(135deg, $gradient-start, $gradient-middle, $gradient-end);
+}

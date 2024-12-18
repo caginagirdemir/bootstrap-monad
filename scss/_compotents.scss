@@ -1,0 +1,43 @@
+.btn-primary-purple {
+    @extend .btn; 
+    background-color: $monad-purple;
+    color: $white;
+  
+    &:hover {
+      background-color: $purple-light-50;
+      color: $white;
+    }
+  }
+
+  .btn-primary-dark-blue {
+    @extend .btn; 
+    background-color: $monad-dark-blue;
+    color: $white;
+  
+    &:hover {
+      background-color: $purple-dark-50;
+      color: $white;
+    }
+  }
+
+  .btn-wine {
+    @extend .btn; 
+    background-color: $wine;
+    color: $white;
+  
+    &:hover {
+      background-color: $berry;
+      color: $white;
+    }
+  }
+
+  .btn-black {
+    @extend .btn; 
+    background-color: $black;
+    color: $white;
+  
+    &:hover {
+      background-color: $black-60;
+      color: $white;
+    }
+  }
